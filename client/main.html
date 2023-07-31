@@ -8,137 +8,180 @@
 </head>
 <body class="bg-green-300">
     
+
+
+  <div class="bg-gray-100">
+    <header class="sticky top-0 z-30 w-full px-2 py-4 bg-white sm:px-4 shadow-xl bg-opacity-50">
+      <div class="flex items-center justify-between mx-auto max-w-7xl">
+        <a href="#">
+          <span class="text-2xl font-extrabold text-blue-600">Logo</span>
+        </a>
+        <div class="flex items-center space-x-1">
+          <ul class="hidden space-x-2 md:inline-flex">
+            <li><a href="#" class="px-4 py-2 font-semibold text-gray-600 rounded">Home</a></li>
+            <li><a href="#" class="px-4 py-2 font-semibold text-gray-600 rounded">Blogs</a></li>
+            <li><a href="#" class="px-4 py-2 font-semibold text-gray-600 rounded">About Us</a></li>
+            <li><a href="#" class="px-4 py-2 font-semibold text-gray-600 rounded">Contact Us</a></li>
+  
+          </ul>
+          <div class="inline-flex md:hidden">
+            <button class="flex-none px-2 ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+              </svg>
+              <span class="sr-only">Open Menu</span>
+            </button>
+            <!-- put list item -->
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <section class="p-4 mx-auto max-w-7xl">
+      <div class="mx-auto font-sans">
+        <h1 class="text-2xl font-bold">Tailwind CSS sticky header</h1>
+        <p> Header dummay data Lorem....</p>
+      </div>
+    </section>
+
+
+
+
+
+
+    
     <nav>
-        <ul class="flex items-center justify-center font-normal">
-          <li class="relative group px-3 py-2">
-            
-            <button class="rounded-full px-3 py-2 font-semibold bg-white bg-opacity-10 flex items-center group">
-                মেনু
-              </button>
-            <div
-              class="absolute  hover:opacity-100 group-hover:visible duration-500 ease-in-out  min-w-[200px] ">
-              <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                <div
-                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
-                </div>
-                <div class="relative z-10">
-                  <ul class="text-[15px]">
-                    <li>
-                      <button class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 font-normal">
-                        আমাদের কোর্স
-                      </button>
+      <ul class="flex items-center justify-center font-normal">
+        <li class="relative group px-3 py-2">
+          
+          <button class="rounded-full px-3 py-2 font-semibold bg-white bg-opacity-10 flex items-center group">
+              মেনু
+            </button>
+          <div
+            class="absolute  hover:opacity-100 group-hover:visible duration-500 ease-in-out  min-w-[200px] ">
+            <div class="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
+              <div
+                class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
+              </div>
+              <div class="relative z-10">
+                <ul class="text-[15px]">
+                  <li>
+                    <button class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 font-normal">
+                      আমাদের কোর্স
+                    </button>
 
-             <!-- Start//here i want multi level menu -->
+           <!-- Start//here i want multi level menu -->
 
+              
+
+
+
+
+
+           <div
+           class="absolute -top-[20px] left-[178px] transition group:translate-y-5 translate-y-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out group:transform z-50 min-w-[200px] transform visible">
+           <div class=" relative top-2 p-6 bg-white rounded-xl shadow-xl w-full">
+           <div
+               class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm group-hover:visible">
+           </div>
+           <div class="relative z-10">
+               <ul class="text-[15px]">
+               <li>
+                   <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                     বিনামূল্যের কোর্স 
+                   </a>
+               </li>
+               <li>
+                   <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                   ক্রয়কৃত কোর্স
+                   </a>
+               </li>
+               <li>
+                   <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                   পুরুষদের জন্য কোর্স
+                   </a>
+               </li>
+               <li>
+                   <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                   মহিলাদের জন্য কোর্স
+                   </a>
+               </li>
+               <li>
+                   <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                   শিশুদের জন্য কোর্স
+                   </a>
+               </li>
+               </ul>
+           </div>
+           </div>
+       </div>
                 
-
-
-
-
-
-             <div
-             class="absolute -top-[20px] left-[178px] transition group:translate-y-5 translate-y-0 opacity-0 group-hover:opacity-100 duration-500 ease-in-out group:transform z-50 min-w-[200px] transform visible">
-             <div class=" relative top-2 p-6 bg-white rounded-xl shadow-xl w-full">
-             <div
-                 class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm group-hover:visible">
-             </div>
-             <div class="relative z-10">
-                 <ul class="text-[15px]">
-                 <li>
-                     <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                       বিনামূল্যের কোর্স 
-                     </a>
-                 </li>
-                 <li>
-                     <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                     ক্রয়কৃত কোর্স
-                     </a>
-                 </li>
-                 <li>
-                     <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                     পুরুষদের জন্য কোর্স
-                     </a>
-                 </li>
-                 <li>
-                     <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                     মহিলাদের জন্য কোর্স
-                     </a>
-                 </li>
-                 <li>
-                     <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                     শিশুদের জন্য কোর্স
-                     </a>
-                 </li>
-                 </ul>
-             </div>
-             </div>
-         </div>
-                  
-             <!-- End here i want multi level menu -->
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        আমাদের পরিষেবা
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        আমাদের শাখা
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        ভর্তি হন
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        বিজ্ঞপ্তি
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        লাইব্রেরী
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        ক্লাসে যোগ দিন
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        অনুদান দিন
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
-                        আমাদের সম্পর্কে জানুন
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+           <!-- End here i want multi level menu -->
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      আমাদের পরিষেবা
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      আমাদের শাখা
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      ভর্তি হন
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      বিজ্ঞপ্তি
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      লাইব্রেরী
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      ক্লাসে যোগ দিন
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      অনুদান দিন
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-800 hover:font-semibold py-1 block font-normal">
+                      আমাদের সম্পর্কে জানুন
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </li>
-          <li class="relative group px-3 py-2">
-            <a href="#" class="hover:text-green-500 hover:underline cursor-default">আমাদের সম্পর্কে
-            </a>
-          </li>
-          <li class="relative group px-3 py-2">
-            <a href="#" class="hover:text-blue-500 hover:underline cursor-default">জিজ্ঞাসা
-            </a>
-          </li>
-          <li class="relative group px-3 py-2">
-            <a href="#" class="hover:text-green-500 hover:underline cursor-default">নির্দেশনা
-            </a>
-          </li>
-          <li class="relative group px-3 py-2">
-            <a href="#" class="hover:text-blue-500 hover:underline cursor-default">যোগাযোগ
-            </a>
-          </li>
-        </ul>
-      </nav>
+          </div>
+        </li>
+        <li class="relative group px-3 py-2">
+          <a href="#" class="hover:text-green-500 hover:underline cursor-default">আমাদের সম্পর্কে
+          </a>
+        </li>
+        <li class="relative group px-3 py-2">
+          <a href="#" class="hover:text-blue-500 hover:underline cursor-default">জিজ্ঞাসা
+          </a>
+        </li>
+        <li class="relative group px-3 py-2">
+          <a href="#" class="hover:text-green-500 hover:underline cursor-default">নির্দেশনা
+          </a>
+        </li>
+        <li class="relative group px-3 py-2">
+          <a href="#" class="hover:text-blue-500 hover:underline cursor-default">যোগাযোগ
+          </a>
+        </li>
+      </ul>
+    </nav>
 <div class="pb-80"></div>
 
 
@@ -146,333 +189,314 @@
 
 
 <nav>
-  <div class="group inline-block">
-    <button
-       class="outline-none focus:outline-none px-3 py-1 bg-rounded-sm flex items-center w-max mb-2"
-       >
-       <span class="font-semibold flex-1">মেনু</span>
-       <span>
-          <svg
-             class="ml-2 fill-current h-4 w-4 transform group-hover:-rotate-180
-             transition duration-150 ease-in-out"
-             xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 20 20"
-             >
-             <path
-                d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                />
-          </svg>
-       </span>
-    </button>
-    <ul
-       class="bg-white border transform scale-0 group-hover:scale-100 absolute 
-       transition duration-500 ease-in-out origin-top min-w-[200px] rounded-xl shadow-xl p-4 pl-4 mr-4 text-sm text-gray-500 hover:font-semibold"
-       >
-       <div
-          class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
-       </div>
-       <!-- <li class="rounded-sm px-3 py-1 hover:bg-gray-100">আমাদের কোর্স</li> -->
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-       <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
-          <button
-             class="w-full text-left flex items-center outline-none focus:outline-none"
-             >
-             <span class="pr-1 flex-1">আমাদের কোর্স</span>
-             <span class="mr-auto">
-                <svg
-                   class="fill-current h-4 w-4
-                   transition duration-150 ease-in-out"
-                   xmlns="http://www.w3.org/2000/svg"
-                   viewBox="0 0 20 20"
-                   >
-                   <path
-                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                </svg>
-             </span>
-          </button>
-          <ul
-             class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
-             transition duration-500 ease-in-out origin-top-left
-             min-w-[200px] shadow-xl p-4 pl-4 
-             "
-             >
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
-             <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
-          </ul>
-       </li>
-    </ul>
- </div>
-    <style>
-       /* since nested groupes are not supported we have to use 
-       regular css for the nested dropdowns 
-       */
-       li>ul                 { transform: translatex(100%) scale(0) }
-       li:hover>ul           { transform: translatex(101%) scale(1) }
-       li > button svg       { transform: rotate(-90deg) }
-       li:hover > button svg { transform: rotate(-270deg) }
-       /* Below styles fake what can be achieved with the tailwind config
-       you need to add the group-hover variant to scale and define your custom
-       min width style.
-       See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
-       for implementation with config file
-       */
-       .group:hover .group-hover\:scale-100 { transform: scale(1) }
-       .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
-       .scale-0 { transform: scale(0) }
-       .min-w-32 { min-width: 8rem }
-    </style>
- </nav>
+<div class="group inline-block">
+  <button
+     class="outline-none focus:outline-none px-3 py-1 bg-rounded-sm flex items-center w-max mb-2"
+     >
+     <span class="font-semibold flex-1">মেনু</span>
+     <span>
+        <svg
+           class="ml-2 fill-current h-4 w-4 transform group-hover:-rotate-180
+           transition duration-150 ease-in-out"
+           xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 20 20"
+           >
+           <path
+              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+              />
+        </svg>
+     </span>
+  </button>
+  <ul
+     class="bg-white border transform scale-0 group-hover:scale-100 absolute 
+     transition duration-500 ease-in-out origin-top min-w-[200px] rounded-xl shadow-xl p-4 pl-4 mr-4 text-sm text-gray-500 hover:font-semibold"
+     >
+     <div
+        class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
+     </div>
+     <!-- <li class="rounded-sm px-3 py-1 hover:bg-gray-100">আমাদের কোর্স</li> -->
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+     <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+        <button
+           class="w-full text-left flex items-center outline-none focus:outline-none"
+           >
+           <span class="pr-1 flex-1">আমাদের কোর্স</span>
+           <span class="mr-auto">
+              <svg
+                 class="fill-current h-4 w-4
+                 transition duration-150 ease-in-out"
+                 xmlns="http://www.w3.org/2000/svg"
+                 viewBox="0 0 20 20"
+                 >
+                 <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+              </svg>
+           </span>
+        </button>
+        <ul
+           class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+           transition duration-500 ease-in-out origin-top-left
+           min-w-[200px] shadow-xl p-4 pl-4 
+           "
+           >
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+           <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+        </ul>
+     </li>
+  </ul>
+</div>
+
 
 
 
@@ -650,6 +674,46 @@
     </div>
 </div>
 </nav>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+    <style>
+       /* since nested groupes are not supported we have to use 
+       regular css for the nested dropdowns 
+       */
+       li>ul                 { transform: translatex(100%) scale(0) }
+       li:hover>ul           { transform: translatex(101%) scale(1) }
+       li > button svg       { transform: rotate(-90deg) }
+       li:hover > button svg { transform: rotate(-270deg) }
+       /* Below styles fake what can be achieved with the tailwind config
+       you need to add the group-hover variant to scale and define your custom
+       min width style.
+       See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+       for implementation with config file
+       */
+       .group:hover .group-hover\:scale-100 { transform: scale(1) }
+       .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+       .scale-0 { transform: scale(0) }
+       .min-w-32 { min-width: 8rem }
+    </style>
+ </nav>
+
+
+
+
+
 
   
 
