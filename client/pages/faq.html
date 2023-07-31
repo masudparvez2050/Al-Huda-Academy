@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/client/images/logo/favicon.png" type="image/svg">
+    <link rel="stylesheet" href="/client/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>আল হুদা একাডেমি | জিজ্ঞাসা</title>
+</head>
+<body class="m-0 p-0 antialiased  text-gray-700 bg-gradient-to-r from-green-100 via-blue-100 to-white-100 ">
+
+   <header class=" px-52 py-6 flex items-center justify-between bg-white bg-opacity-70 drop-shadow-md">
+      <img class="h-16" src="/client/images/logo/logo.png" alt="">
+<!-- <a href="/" class="font-bold text-blue-500 text-2xl drop-shadow-md"><span class="text-green-500 ">আল হুদা</span>  একাডেমি</a> -->
+
+
+  
+
+<nav>
+  <ul class="flex items-center justify-center font-normal">
+      <li class="relative group px-3 py-2">
+          <a href="../index.html" class="hover:text-blue-500 hover:underline cursor-default">হোম
+          </a>
+        </li>
+
+      <!-- Drop Down Menu Here Start -->
+      
+      <nav>
+          <div class="group inline-block group relative z-50">
+            <button
+               class="outline-none focus:outline-none px-3 py-1 bg-rounded-sm flex items-center w-max my-2 "
+               >
+               <span class="font-semibold flex-1">মেনু</span>
+               <span>
+                  <svg
+                     class="ml-2 fill-current h-4 w-4 transform group-hover:-rotate-180
+                     transition duration-150 ease-in-out"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 20 20"
+                     >
+                     <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                        />
+                  </svg>
+               </span>
+            </button>
+            <ul
+               class="bg-white border transform scale-0 group-hover:scale-100 absolute 
+               transition duration-500 ease-in-out origin-top min-w-[200px] rounded-xl shadow-xl p-4 pl-4 mr-4 text-sm text-gray-700 bg-opacity-90"
+               >
+               <div
+                  class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 -translate-x-4 transition-transform group-hover:translate-x-3 duration-500 ease-in-out rounded-sm">
+               </div>
+               <!-- <li class="rounded-sm px-3 py-1 hover:bg-gray-100">আমাদের কোর্স</li> -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">আমাদের কোর্স</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[200px] shadow-xl p-4 pl-4 bg-opacity-90
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামূল্যের কোর্স</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">ক্রয়কৃত কোর্স</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষদের জন্য কোর্স</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলাদের জন্য কোর্স</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশুদের জন্য কোর্স</a></li>
+                  </ul>
+               </li>
+               <!-- -------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">আমাদের পরিষেবা</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">পবিত্র কুরআন শিক্ষা কার্যক্রম</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">প্রয়োজনীয় দ্বীন শিক্ষা</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">প্রয়োজনীয় ইসলামিক আকাইদ শিক্ষা কার্যক্রম</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">দরিদ্র মানুষকে পবিত্র কুরআন, দ্বীন এবং ইসলামী আকাইদ শিখতে সাহায্য করা</a></li>
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">আমাদের শাখা</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[200px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">পুরুষ শাখা</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">মহিলা শাখা</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">শিশু শাখা</a></li>
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">গৃহশিক্ষক পরিষেবা</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">অনলাইনে পড়ার জন্য শিক্ষক খুঁজুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">অনলাইনে পরাড়ানোর জন্য ছাত্র খুঁজুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">অফলাইনে পড়ার জন্য নিজ এলাকায় গৃহশিক্ষক খুঁজুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">অফলাইনে পরড়ানোর জন্য নিজ এলাকায় ছাত্র খুঁজুন</a></li>
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">ভর্তি হন</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">নিরদেশনাবলি ও ভর্তির ফর্ম</a></li>
+                     
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">বিজ্ঞপ্তি</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">টেক্সট কন্টেন্ট</a></li>
+                     
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">লাইব্রেরি</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিনামুল্যে শিখুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">বই কিনুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">কোর্স কিনুন</a></li>
+                     
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">ক্লাসে যোগদিন</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">কুরআন শিক্ষা কোর্সের ২য় ব্যাচের ক্লাসে যুক্ত হতে নীচের লিঙ্কে প্রবেশ করুন</a></li>
+                  </ul>
+               </li>
+               <!-- ---------------------------- -->
+               <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                  <button
+                     class="w-full text-left flex items-center outline-none focus:outline-none"
+                     >
+                     <span class="pr-1 flex-1">অনুদান দিন</span>
+                     <span class="mr-auto">
+                        <svg
+                           class="fill-current h-4 w-4
+                           transition duration-150 ease-in-out"
+                           xmlns="http://www.w3.org/2000/svg"
+                           viewBox="0 0 20 20"
+                           >
+                           <path
+                              d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                              />
+                        </svg>
+                     </span>
+                  </button>
+                  <ul
+                     class="bg-white border rounded-xl absolute ml-10 top-0 -right-4
+                     transition duration-500 ease-in-out origin-top-left
+                     min-w-[250px] shadow-xl p-4 pl-4 
+                     "
+                     >
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">জাকাত ও ফিতরাহ দান করুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">নফল সাফাকাহ দান করুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">বিশেষ প্রকল্পের জন্য দান করুন</a></li>
+                     <li class="px-3 py-1 hover:bg-gray-100"><a href="">আল হুদা একাডেমির সার্বিক উন্নয়নে দান করুন</a></li>
+                  </ul>
+               </li>
+
+            </ul>
+         </div>
+            <style>
+               
+               li>ul                 { transform: translatex(100%) scale(0) }
+               li:hover>ul           { transform: translatex(101%) scale(1) }
+               li > button svg       { transform: rotate(-90deg) }
+               li:hover > button svg { transform: rotate(-270deg) }
+               
+               
+               .group:hover .group-hover\:scale-100 { transform: scale(1) }
+               .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+               .scale-0 { transform: scale(0) }
+               .min-w-32 { min-width: 8rem }
+            </style>
+         </nav>
+
+       <!-- Drop Down Menu Here End -->
+
+
+
+       <li class="relative group px-3 py-2">
+         <a href="./about_us.html" class="hover:text-green-500 hover:underline cursor-default">আমাদের সম্পর্কে
+         </a>
+       </li>
+       <li class="relative group px-3 py-2">
+         <a href="./faq.html" class="hover:text-blue-500 hover:underline cursor-default">জিজ্ঞাসা
+         </a>
+       </li>
+       <li class="relative group px-3 py-2">
+         <a href="./guide.html" class="hover:text-green-500 hover:underline cursor-default">নির্দেশনা
+         </a>
+       </li>
+       <li class="relative group px-3 py-2">
+         <a href="./contact.html" class="hover:text-blue-500 hover:underline cursor-default">যোগাযোগ
+         </a>
+       </li>
+    <li class="relative group px-3 py-2 font-semibold">
+      <!-- -------------------------- -->
+
+      <nav>
+        <div class="group inline-block group relative z-50">
+          <button
+             class="outline-none focus:outline-none px-3 py-1 bg-rounded-sm flex items-center w-max my-2 "
+             >
+             <span class="font-semibold flex-1">অনুদান</span>
+             <span>
+                <svg
+                   class="ml-2 fill-current h-4 w-4 transform group-hover:-rotate-180
+                   transition duration-150 ease-in-out"
+                   xmlns="http://www.w3.org/2000/svg"
+                   viewBox="0 0 20 20"
+                   >
+                   <path
+                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                </svg>
+             </span>
+          </button>
+          <ul
+             class="bg-white border transform scale-0 group-hover:scale-100 absolute 
+             transition duration-500 ease-in-out origin-top min-w-[200px] rounded-xl shadow-xl p-4 pl-4 mr-4 text-sm text-gray-700 bg-opacity-90"
+             >
+             <!-- <li class="rounded-sm px-3 py-1 hover:bg-gray-100">আমাদের কোর্স</li> -->
+             
+             <!-- ---------------------------- -->
+             <li class="px-3 py-1 hover:bg-gray-100 font-normal"><a href="">জাকাত ও ফিতরাহ দান করুন</a></li>
+                   <li class="px-3 py-1 hover:bg-gray-100 font-normal"><a href="">নফল সাফাকাহ দান করুন</a></li>
+                   <li class="px-3 py-1 hover:bg-gray-100 font-normal"><a href="">বিশেষ প্রকল্পের জন্য দান করুন</a></li>
+                   <li class="px-3 py-1 hover:bg-gray-100 font-normal"><a href="">আল হুদা একাডেমির সার্বিক উন্নয়নে দান করুন</a></li>
+
+          </ul>
+       </div>
+          <style>
+             
+             li>ul                 { transform: translatex(100%) scale(0) }
+             li:hover>ul           { transform: translatex(101%) scale(1) }
+             li > button svg       { transform: rotate(-90deg) }
+             li:hover > button svg { transform: rotate(-270deg) }
+             
+             
+             .group:hover .group-hover\:scale-100 { transform: scale(1) }
+             .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+             .scale-0 { transform: scale(0) }
+             .min-w-32 { min-width: 8rem }
+          </style>
+       </nav>
+
+      <!-- -------------------------- -->
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav>
+  <ul class="flex">
+    <li >
+      <select name="" id="" class="bg-white bg-opacity-0 mt-4 w-16">
+        <option value="">বাংলা</option>
+        <option value="">Eng</option>
+    </select>
+  </li>
+    <li>
+      <a href="/client/index.html" class="rounded-full px-3 py-2 font-bold bg-white bg-opacity-10 flex items-center group">
+        <button class="g-transparent hover:bg-green-500 text-green-500 font-normal hover:text-white py-2 px-4 mr-2 border border-green-500 hover:border-transparent rounded-full" >লগ ইন</button>
+        <svg class="stroke-current" width="10" height="10" stroke-width="2" viewBox="0 0 10 10" aria-hidden="true">
+          <g fill-rule="evenodd">
+            <path class="opacity-0 group-hover:opacity-100 transition ease-in-out duration-200" d="M0 5h7"></path>
+            <path
+              class="opacity-100 group-hover:transform group-hover:translate-x-1 transition ease-in-out duration-200"
+              d="M1 1l4 4-4 4"></path>
+          </g>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+  </header>
+
+
+  <section class="text-gray-600 body-font">
+   <div class="container px-5 py-24 mx-auto">
+     <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <p class="text-5xl mb-10">জিজ্ঞাসা</p>
+       <p class="leading-relaxed text-lg mb-3 text-justify">আল-হুদা একাডেমী একটি নতুন ইসলামিক অনলাইন ভিত্তিক এদুকেশনাল ওয়েবসাইট যা ইসলামের আলোকে শিক্ষার্থীদের জন্য একটি প্রস্তুতি। এই একাডেমীতে ইসলামী শিক্ষার্থীরা প্রফেশনাল ভাবে তাদের ধর্মীয় শিক্ষা গ্রহণ করতে পারে। এই ওয়েবসাইট ইসলামি শিক্ষার বিভিন্ন আয়ামের মধ্যে একটি পূর্ণসংস্করণ প্রদান করতে যা আমরা দিনপ্রতিদিন আমাদের প্রাথমিক বা সাধারণ শিক্ষা বিভাগে দেখতে পাই না।
+
+         </p>
+       <p class="leading-relaxed text-lg text-justify">আল-হুদা একাডেমী একাধিক ইসলামিক বিষয়ে সংশ্লিষ্ট শিক্ষার্থীদের জন্য বিশেষভাবে প্রস্তুতি করে। এই একাডেমীতে প্রদত্ত শিক্ষামূলক সেবাগুলি ইসলামের নীতিমালা, কোরআন, হাদীস, ইসলামিক ইতিহাস, ইসলামিক মরামমত এবং প্রতিদিনের ইসলামিক জীবনের বিভিন্ন বিষয়ে শিক্ষার্থীদের জ্ঞান উন্নত করে।</p>
+       <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+      
+     </div>
+   </div>
+ </section>
+
+      
+
+
+        <footer class="w-full text-gray-300 bg-gray-800 bg-opacity-100 body-font">
+            <div
+                class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+                <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+                    <a class="flex items-center justify-center font-semibold text-lg text-gray-900 title-font md:justify-start">
+                       <!-- <p class="text-blue-500"><span class="text-green-800">আল হুদা </span>একাডেমী</p> -->
+                       <img src="/client/images/logo/logo.png" alt="">
+                    </a>
+                    <!-- <p class="mt-2 text-base text-white">ইসলামিক শিক্ষা ও গবেষণা প্রতিষ্ঠান</p> -->
+                    <div class="mt-4">
+                        <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                            <a class="text-white cursor-pointer hover:text-blue-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-white cursor-pointer hover:text-blue-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-white cursor-pointer hover:text-blue-500">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-white cursor-pointer hover:text-blue-500">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path stroke="none"
+                                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                    </path>
+                                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                    <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                        <h2 class="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">সম্পর্কে</h2>
+                        <nav class="mb-10 list-none">
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">কোম্পানি</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">ক্যারিয়ার</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">ব্লগ</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                        <h2 class="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">সাপোর্ট</h2>
+                        <nav class="mb-10 list-none">
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">কন্টাক্ট সাপোর্ট</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">হেল্প রিসোর্স</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">রিলিজ আপডেট</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                        <h2 class="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">প্ল্যাটফরম
+                        </h2>
+                        <nav class="mb-10 list-none">
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">শর্ত সমূহ</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">প্রাইসিং</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">FAQ</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                        <h2 class="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">যোগাযোগ</h2>
+                        <nav class="mb-10 list-none">
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">মেসেজ পাঠান</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">রিকুয়েস্ট</a>
+                            </li>
+                            <li class="mt-3">
+                                <a class="text-white cursor-pointer hover:text-gray-900">+123-456-7890</a>
+                            </li>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-green-700">
+                <div class="container px-5 py-4 mx-auto">
+                    <p class="text-sm text-gray-300 capitalize xl:text-center">© 2023 All rights reserved </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+          <script src="/client/js/scripts.js"></script>
+     </body>
+</html>
